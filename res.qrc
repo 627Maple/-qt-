@@ -1,0 +1,29 @@
+<RCC>
+    <qresource prefix="/">
+        <file>File_Sourse/First_Name.txt</file>
+        <file>File_Sourse/Last_Name.txt</file>
+        <file>File_Sourse/2022-03-27 193607.png</file>
+        <file>File_Sourse/2022-03-27 193651.png</file>
+        <file>File_Sourse/2022-03-27 194234.png</file>
+        <file>File_Sourse/2022-03-27 195106.png</file>
+        <file>File_Sourse/2022-03-27 195633.png</file>
+        <file>File_Sourse/2022-03-27 200023.png</file>
+        <file>File_Sourse/2022-03-27 200221.png</file>
+        <file>File_Sourse/map.png</file>
+        <file>File_Sourse/Building_Source.txt</file>
+        <file>File_Sourse/method_1.png</file>
+        <file>File_Sourse/method_2.png</file>
+        <file>File_Sourse/method_3.png</file>
+        <file>File_Sourse/method_4.png</file>
+        <file>File_Sourse/add.png</file>
+        <file>File_Sourse/delete.png</file>
+        <file>File_Sourse/file.png</file>
+        <file>File_Sourse/8ca9f9178df2980622c4759f44b77a8b.jpeg</file>
+        <file>File_Sourse/75d955e9d1dadcc7df4373be2c5faf19.jpeg</file>
+        <file>File_Sourse/42959ffa6c1008476210e70e55637ddd.jpeg</file>
+        <file>File_Sourse/85903a82d017143cf0e0628d96dd964b.jpeg</file>
+        <file>File_Sourse/f3d01af2046a8431bafc3385665ad5f7.jpeg</file>
+        <file>File_Sourse/16aeb5df08ad511acd8f142c8383adcf.jpeg</file>
+        <file>File_Sourse/screen.jpg</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>statistics</class>
+ <widget class="QMainWindow" name="statistics">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>897</width>
+    <height>497</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="toolButtonStyle">
+   <enum>Qt::ToolButtonTextUnderIcon</enum>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="healthy">
+       <attribute name="title">
+        <string>healthy</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_2">
+        <item>
+         <widget class="QPushButton" name="pushButton">
+          <property name="text">
+           <string>生成统计图</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QChartView" name="chartview"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="infected">
+       <attribute name="title">
+        <string>infected</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QPushButton" name="pushButton_2">
+          <property name="text">
+           <string>生成统计图</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QChartView" name="chartview_2"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="severe">
+       <attribute name="title">
+        <string>severe</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_4">
+        <item>
+         <widget class="QPushButton" name="pushButton_3">
+          <property name="text">
+           <string>生成统计图</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QChartView" name="chartview_3"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="dead">
+       <attribute name="title">
+        <string>dead</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_5">
+        <item>
+         <widget class="QPushButton" name="pushButton_4">
+          <property name="text">
+           <string>生成统计图</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QChartView" name="chartview_4"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="vaccnitor">
+       <attribute name="title">
+        <string>vaccnitor</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout_6">
+        <item>
+         <widget class="QPushButton" name="pushButton_5">
+          <property name="text">
+           <string>生成统计图</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QChartView" name="chartview_5"/>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="total">
+       <attribute name="title">
+        <string>total</string>
+       </attribute>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QPushButton" name="pushButton_6">
+          <property name="text">
+           <string>生成统计图</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QChartView" name="chartview_6"/>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QToolBar" name="toolBar">
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionZoomIn"/>
+   <addaction name="actionZoomOut"/>
+   <addaction name="actionZoomReset"/>
+   <addaction name="actionQuit"/>
+   <addaction name="actionopen"/>
+  </widget>
+  <action name="actionZoomIn">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/File_Sourse/8ca9f9178df2980622c4759f44b77a8b.jpeg</normaloff>:/File_Sourse/8ca9f9178df2980622c4759f44b77a8b.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>放大</string>
+   </property>
+   <property name="toolTip">
+    <string>放大</string>
+   </property>
+  </action>
+  <action name="actionZoomOut">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/File_Sourse/42959ffa6c1008476210e70e55637ddd.jpeg</normaloff>:/File_Sourse/42959ffa6c1008476210e70e55637ddd.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>缩小</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/File_Sourse/f3d01af2046a8431bafc3385665ad5f7.jpeg</normaloff>:/File_Sourse/f3d01af2046a8431bafc3385665ad5f7.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>退出</string>
+   </property>
+  </action>
+  <action name="actionZoomReset">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/File_Sourse/75d955e9d1dadcc7df4373be2c5faf19.jpeg</normaloff>:/File_Sourse/75d955e9d1dadcc7df4373be2c5faf19.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>还原大小</string>
+   </property>
+  </action>
+  <action name="actionopen">
+   <property name="icon">
+    <iconset resource="res.qrc">
+     <normaloff>:/File_Sourse/16aeb5df08ad511acd8f142c8383adcf.jpeg</normaloff>:/File_Sourse/16aeb5df08ad511acd8f142c8383adcf.jpeg</iconset>
+   </property>
+   <property name="text">
+    <string>打开文件</string>
+   </property>
+  </action>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>QChartView</class>
+   <extends>QGraphicsView</extends>
+   <header location="global">qchartview.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="res.qrc"/>
+ </resources>
+ <connections/>
+</ui>
