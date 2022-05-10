@@ -1,3 +1,2 @@
-两个branch
-代码在main中。
+一个疫情模拟系统
 相关的ui图片在file-source中
